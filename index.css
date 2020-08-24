@@ -1,0 +1,248 @@
+
+.banner {
+    /* watercol.jpg inputs the picture we want in our banner */
+    background: transparent url(watercol.jpg) 0 0 repeat fixed; /* this makes the watercolour image background to the whole website */
+    text-align: left;
+    background-size: cover;
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+    font-weight: 500;
+    text-shadow: 0 3px 2px white;
+    border-top: solid;
+    border-color:rgb(166, 69, 179);
+    border-width: 5px;
+}
+
+.banner2 {
+    /* watercol.jpg inputs the picture we want in our banner */
+    background: transparent url(watercol.jpg) 0 0 repeat fixed; /* this makes the watercolour image background to the whole website */
+    text-align: left;
+    background-size: cover;
+    width: 100%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.banner3 {
+    /* watercol.jpg inputs the picture we want in our banner */
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    font-size: 20px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    color: black;
+}
+
+.banner4 {
+    /* watercol.jpg inputs the picture we want in our banner */
+    background: transparent url(watercol.jpg) 0 0 repeat fixed; /* this makes the watercolour image background to the whole website */
+    text-align: left;
+    background-size: cover;
+    width: 100%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    border-top: solid;
+    border-color:rgb(166, 69, 179);
+    border-width: 5px;
+}
+
+.black-button {
+    background: pink;
+    color: white;
+    border-radius: 100px;
+}
+
+body{
+    background: url(background.jpg) fixed;
+    font-family:arial;
+    font-size:15px;
+}
+
+#quiz-title{
+    text-align: center;   
+}
+
+.quiz li{
+    list-style: none;
+    width: 60%;
+    padding: 10px;
+    background-color:rgba(103, 188, 245);
+    border-radius:25px;
+    margin: auto;
+    margin-top:3px;  
+}
+
+.questionForm h3 {
+    text-align: center;
+}
+
+.questionForm input {
+    margin-right: 0.5em;
+}
+
+.questionForm button {
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 7px;
+    display:block;
+    border-radius: 10px;
+    border: none;
+    border-width: 0.5px;
+    background-color: rgba(103, 188, 245);
+}
+
+.quiz{
+    width: 70%;
+    margin: 20px auto;
+    overflow:auto;
+    text-align: left;
+    background-color: rgb(204, 236, 248);
+    border-style: ridge;
+    border-color:rgb(166, 69, 179);
+    margin-bottom: 70px;
+}
+
+
+.quiz-top{
+    color:ffffff;
+    background-image: linear-gradient(to right,rgb(219, 160, 243),rgb(158, 205, 236),  rgb(74, 173, 240));
+    padding: 5px 10px;
+    overflow:auto;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.quiz-bottom{
+    background-image: linear-gradient(to right,rgb(219, 160, 243),rgb(158, 205, 236),  rgb(74, 173, 240));
+    color:ffffff;
+    padding: 5px 10px;
+    overflow:auto;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2rem;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#results{
+    text-align: center;
+}
+
+#message{
+    text-align: center;
+}
+
+.quote {
+    color: black;
+    padding: 10px 5px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top:40px;
+}
+
+.quote2 {
+    color: black;
+    padding: 10px 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-top:40px;
+}
+
+#issues-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#issues-tag{
+    text-align: center;
+}
+
+
+.l-box {
+    margin:left;
+    margin-bottom: 40px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.copyright{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .socialmediaicons{
+    margin-bottom: 0px;
+    margin-top: 9px;
+    padding-left: 9px;
+    width: 20%;
+    display: grid;
+    justify-content: right;
+  }
+
+.pure-img{
+    margin:left;
+    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.para{
+    padding-left:20px;
+    padding-right:20px;
+    font-size: medium;
+    justify-content: center;
+}
+
+#inspiration-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#inspiration-tag{
+    text-align: center;
+}
+
+#tweets-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tweetpictures{
+    border: 10px solid white;
+    border-radius: 70px;
+}
+
+.colour{
+    color: black;
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head><!--look at purecss.io online to see what you can do with the premade style sheets-->
+        <!-- This helps to make it viewable on a phone screen-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Adding PureCSS.io stylesheet for our website-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/base-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <!-- Creating our home.css Sheet to add colours and effects to our homepage-->
+        <link rel="stylesheet" href="index.css">
+        <!-- Giving the title on the tab-->
+        <title>The Future is Female</title>
+    </head>
+    <body><!--scrollable navbar which shows the selected page with black text on the button and all the other buttons greyed out-->
+        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable"> <!--Inputed from PureCSS.io-->
+            <img class="pure-menu-heading" src="logo2.png" height="64.5" width="184"> <!--This is our website logo-->
+            <ul class="pure-menu-list"> <!-- Creates the nav bar 'list'-->
+                <!--'pure-menu-selected' makes the nav bar black when you click on a specific tab-->
+                <li class="pure-menu-item pure-menu-selected"><a href="index.html" class="pure-menu-link">Home</a></li>
+                <!-- Creates each of the tabs-->
+                <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+                <li class="pure-menu-item"><a href="inspiration.html" class="pure-menu-link">Inspiration</a></li>
+                <li class="pure-menu-item"><a href="issues.html" class="pure-menu-link">Issues</a></li>
+                <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <!-- Banner class is for the background of the website-->
+        <div class="banner">
+            <!-- The banner head is for the writing on the banner and the style of this can be edited in home.css-->
+            <h1>
+                Glass Ceilings are Made
+                to be Broken
+            </h1>
+        </div>
+
+        <!--Victoria's quiz-->
+        <div class="quiz">
+            <div id="quiz-title"><h1>Quiz</h1></div> 
+            <div class="quiz-top">Test your knowledge before you explore...</div>
+            <form class="questionForm" id="q1" data-question="1">
+                <h3 class="h3">1. How many years will it take to close the gender gap?</h3>
+                <ul>
+                    <li><input name="q1" type="radio" value="a"/>7 years</li>
+                    <li><input name="q1" type="radio" value="b"/>29 years</li>
+                    <li><input name="q1" type="radio" value="c"/>86 years</li>
+                    <li><input name="q1" type="radio" value="d"/>108 years</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q2" data-question="2">
+                <h3>2. How many countries have given women and men equal work rights?</h3>
+                <ul>
+                    <li><input name="q2" type="radio" value="a"/>6</li>
+                    <li><input name="q2" type="radio" value="b"/>18</li>
+                    <li><input name="q2" type="radio" value="c"/>95</li>
+                    <li><input name="q2" type="radio" value="d"/>195</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q3" data-question="3">
+                <h3>3. What percentage of AI professionals are women?</h3>
+                <ul>
+                    <li><input name="q3" type="radio" value="a"/>10%</li>
+                    <li><input name="q3" type="radio" value="b"/>22%</li>
+                    <li><input name="q3" type="radio" value="c"/>35%</li>
+                    <li><input name="q3" type="radio" value="d"/>50%</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q4" data-question="4">
+                <h3>4. How much more likely are women to suffer severe injuries in car crashes because safety features are desigened for men?</h3>
+                <ul>
+                    <li><input name="q4" type="radio" value="a"/>5%</li>
+                    <li><input name="q4" type="radio" value="b"/>34%</li>
+                    <li><input name="q4" type="radio" value="c"/>47%</li>
+                    <li><input name="q4" type="radio" value="d"/>53%</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q5" data-question="5">
+                <h3>5. Globally, how many children become brides every day?</h3>
+                <ul>
+                    <li><input name="q5" type="radio" value="a"/>3,000</li>
+                    <li><input name="q5" type="radio" value="b"/>13,000</li>
+                    <li><input name="q5" type="radio" value="c"/>33,000</li>
+                    <li><input name="q5" type="radio" value="d"/>53,000</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q6" data-question="6">
+                <h3>6. How many hours per week do rural women in Africa spend collecting water?</h3>
+                <ul>
+                    <li><input name="q6" type="radio" value="a"/>1 million</li>
+                    <li><input name="q6" type="radio" value="b"/>50 million</li>
+                    <li><input name="q6" type="radio" value="c"/>4 billion</li>
+                    <li><input name="q6" type="radio" value="d"/>40 billion</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q7" data-question="7">
+                <h3>7. For each female film character, how many males are there?</h3>
+                <ul>
+                    <li><input name="q7" type="radio" value="a"/>0.74</li>
+                    <li><input name="q7" type="radio" value="b"/>1.75</li>
+                    <li><input name="q7" type="radio" value="c"/>2.24</li>
+                    <li><input name="q7" type="radio" value="d"/>3.35</li>
+                </ul>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            <div id="results"></div>
+            <div id="message">Take a look at our issues page to learn more!</div>
+            <div class="quiz-bottom">Total: 7 questions</div>
+        </div>
+        
+        <!-- The start of the quote that separates the website into sections. Each quote has the same class which means they have the same style-->
+        <!-- Banner class is for the background of the website-->
+        <div class="banner2">
+            <p class="quote">'There is no limit to what we, as women, can accomplish'- Michelle Obama</p>
+        </div>
+        
+        
+        
+        <!-- Title and subtitle of the next section-->
+        <div id="issues-title"><h1>Feminist issues in the UK</h1></div> 
+        <div id="issues-tag"><h2>Explore some of the pressing issues women are currently facing in the UK</h2></div>
+
+       <!-- Beginning of the 3 grid--> 
+        <div class="pure-g"><!--a grid containing images and their respective paragraphs-->
+            <!-- 1 x 1 grid if it's smaller than tablet size and 1 x 3 for anything else-->
+            <div class="pure-u-1 pure-u-md-1-3"><!--pure-u-1 means the grid will stack on top of each other when the screen size is too small-->
+                <!-- Inputs the image and gives description-->
+                <div class="l-box"><img class="pure-img" src="period-poverty.png"> 
+                    <!-- Title-->
+                    <h2 style="padding-left: 20px;">
+                    <a href="issues.html" class = "colour">Period Poverty</a></h2>
+                    <!-- Paragraph-->
+                    <p class="para">‘Period poverty’ means being unable to
+                        access sanitary products and having a
+                        poor knowledge of menstruation often due
+                        to financial constraints. In the UK, 1 in
+                        10 girls can’t afford to buy menstrual products,
+                        while 1 in 7 have struggled to afford them,
+                        according to a representative survey of 1,000
+                        girls and young women aged 14-21 by Plan 
+                        International UK.</p></div>
+                </div>
+                <!-- All sections are contained within the grid classes-->
+                <!-- This is the same as above but changed for given subject area-->
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="l-box"><img class="pure-img" src="paygap.jpg">
+                    <h2 style="padding-left: 20px;">
+                        <a href="issues.html" class = "colour">The Gender Pay Gap</a></h2>
+                    <p class="para">The gender pay gap or gender wage gap is the
+                        average difference between the remuneration
+                        for men and women who are working. Women are
+                        generally considered to be paid less than men.</p>
+                    <p class="para">In 2019 the gender pay gap was 17.3% in the UK,
+                        which means that on average, women were paid 
+                        approximately 83p for every £1 men were paid. </p></div>
+            </div>
+            <!-- This is the same as above but changed for given subject area-->
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="l-box"><img class="pure-img" src="violence.jpg">
+                    <h2 style="padding-left: 20px;">
+                        <a href="issues.html" class = "colour">Domestic Violence</a></h2>
+                    <p class="para">Domestic violence is violence or abuse in a
+                        domestic setting, such as marriage or 
+                        cohabitation. This includes physical, verbal,
+                        emotional, economic, religious, reproductive 
+                        and sexual abuse. Globally, the victims of domestic 
+                        violence are predominantly women,and women tend to 
+                        experience more severe forms of violence.</p></div>
+            </div>
+        </div>
+
+
+        <!-- Quote that separates the page and Title and Subtitle-->
+        <div class="banner2">
+            <p class="quote">'Each time a woman stands up for herself, she stands up for all women'- Maya Angelou</p>
+        </div>
+        <!-- Title and Subtitle of the next section-->
+        <div id="inspiration-title"><h1>Inspirational Women</h1></div> 
+        <div id="inspiration-tag"><h2>Explore the women breaking the barriers of the workplace</h2></div>
+
+        <!-- This is a 1 x 2 for the 'Women in...'-->
+        <div class="pure-g"><!--a grid containing images and their respective paragraphs-->
+            <div class="pure-u-1 pure-u-md-1-2"><!--pure-u-1 means the grid will stack on top of each other when the screen size is too small-->
+                <!-- Heights have been altered to make sure they're all aligned-->
+                <div class="l-box">
+                    <a href="inspiration.html">
+                    <img src="finance.jpg" height="90">
+                    </a>
+                    <h2 style="padding-left: 20px; ">Women in Finance</h2>
+                    <p class="para">The percentage of female financial services
+                         industry leaders globally remains at 12%. Stereotypes 
+                         surrounding the types of roles available in the finance 
+                         industry have played a part in discouraging women to enter 
+                         the workforce. As a result both recruiting and retaining female 
+                        finance talent has become increasingly more difficult for companies</p>
+                    </div>
+                </div>
+
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="l-box">
+                    <a href="inspiration.html">
+                    <img src="sport.jpg" height="100">
+                </a>
+                    <h2 style="padding-left: 20px; ">Women in Sports</h2>
+                    <p class="para">40 per cent of women experience gender
+                         discrimination in the sport industry. Sports coverage 
+                         is hugely powerful in shaping norms and stereotypes 
+                         about gender. Media has the ability to challenge these 
+                         norms, promoting a balanced coverage of men's and women's 
+                         sports and a fair portrayal of sportspeople – irrespective 
+                         of gender.</p>
+                    </div>
+                </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="l-box">
+                    <a href="inspiration.html">
+                    <img src="STEM.jpg" height="80">
+                    </a>
+                    <h2 style="padding-left: 20px; ">Women in STEM</h2>
+                    <p class="para">
+                        For years women have been underrepresented in STEM
+                         (science, technology, engineering and mathematics) 
+                         university courses and occupations.</p>
+                    <p class="para">According the recent UCAS data provided 
+                        by HESA, 35% of STEM students in higher education in 
+                        the UK are women.</p>
+                    </div>
+                </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="l-box">
+                    <a href="inspiration.html">
+                    <img src="books.jpg"height="80">
+                    </a>
+                    <h2 style="padding-left: 20px; ">Women in Literature</h2>
+                    <p class="para">Previously in the literature world, 
+                        women were not always welcomed. The Brontë Sisters 
+                        are a prime example: their writing incorporated male 
+                        pseudonyms in order to have their work taken seriously 
+                        whilst projecting masculinity.</p>
+                    <p class="para">Nowadays there are increasingly more 
+                        women in literature and the arts. According to the 
+                        New York Times in 2016, 49% of best selling books 
+                        were written by female authors. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Quote that separates the page-->    
+        <div class="banner2">
+            <p class="quote">'We move forward when we recognise how resilient and striking the women around us are' - Rupi Kaur</p>
+        </div>
+        
+        <!-- Tweets Title-->
+        <div id="tweets-title"><h1>What people are saying now...</h1></div> 
+
+        <div class="pure-g"><!--a grid containing images and their respective paragraphs-->
+
+            <div class="pure-u-1 pure-u-md-1-3"><!--pure-u-1 means the grid will stack on top of each other when the screen size is too small-->
+                <div class="l-box">
+                    <a href="https://twitter.com/gamechanger4ver/status/1284741779707711488">
+                    <img class="tweetpictures pure-img" src="tweet2.JPG">
+                    </a>
+                </div>
+            </div> 
+
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="l-box">
+                    <a href="https://twitter.com/RachelSThomas/status/1245072485571231755">
+                    <img class="tweetpictures pure-img" src="tweet1.JPG">
+                </a>
+            </div>
+        </div>
+
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="l-box">
+                    <a href="https://twitter.com/OutProud4/status/1292775844935618563">
+                    <img class="tweetpictures pure-img" src="tweet3.JPG">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- Bottom Banner--> 
+        <div class="banner4">
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-3">
+                    <div><img class="socialmediaicons" src="socialmediaicons.png"></div>
+                    <p class = "copyright"> © 2020 - The Future is Female<br></p>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-3">
+                    <div class="l-box">
+                        <h2 style="padding-left: 20px; ">
+                            <button class="black-button pure-button pure-button-active"><a class = "banner3" href="contact.html">Contact Us</a></button>
+                            <button class="black-button pure-button pure-button-active"><a class = "banner3" href="index.html">Home</a></button>
+                            <button class="black-button pure-button pure-button-active"><a class = "banner3" href="contact.html">Follow Us</a></button>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="question.js"></script>
+    </body>
+</html>
